@@ -1,0 +1,67 @@
+# ===================================================================
+# Python / PyTorch .gitignore
+#
+# A comprehensive template to keep your repository clean.
+# ===================================================================
+
+# 1. Virtual Environments
+# Never commit your virtual environment folder. It's specific to your
+# machine and can be huge. Recreate from requirements.txt instead.
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# 2. Python Artifacts and Caches
+# These are generated automatically by Python to speed things up.
+# They are not source code and will be recreated as needed.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# 3. IDE and Editor Configuration
+# Your personal editor settings don't belong in the project history.
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 4. Operating System Files
+# System-specific metadata files that have no place in a repo.
+.DS_Store
+Thumbs.db
+
+# 5. Jupyter Notebook Checkpoints
+# Auto-saved checkpoints for Jupyter notebooks.
+.ipynb_checkpoints/
+
+# 6. Log and Output Files
+# Log files can become large and change frequently.
+*.log
+*.out
+
+# 7. Sensitive Information - VERY IMPORTANT!
+# Files containing secret keys, passwords, or other credentials.
+# NEVER commit these files.
+.env
+credentials.json
+config.ini
+secrets.yml
+
+# 8. Large Data and Model Files
+# Git is not designed for large binary files. Use Git LFS for these
+# or download them via a script.
+/data/
+/datasets/
+/models/
+*.pt
+*.pth
+*.h5
+*.onnx

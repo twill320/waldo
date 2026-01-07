@@ -1,0 +1,4 @@
+Speech Recognition Neural Network
+
+Description/Motivation:
+I'm building a neural network to recognize oral speech and put it to text form. The input to this neural network will be digitized audio data. The neural network will output those spoken words as text. I'm thinking about tailoring it specifically to the Yoruba language, but if English ends up being easier to do I might just end up doing that and saving the Yoruba speech-to-text for later. This is my first every neural network, so I'm trying to really just dive in and learn as I go. This is a learning experience and I hope to get it to work with not just english in American accents but hopefull speech in other accents as well. My parents are Yoruba and migrated from Nigeria. They have accents. I want my neural network to be able to decipher their speech just as well as mine, having grown up all my life in America.
