@@ -62,5 +62,5 @@ secrets.yml
 /models/
 *.pt
 *.pth
-*.h5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
+*.h5
 *.onnx
