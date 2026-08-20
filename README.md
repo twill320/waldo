@@ -70,17 +70,6 @@ v
 
 ---
 
-## Development Roadmap
-
-- [x] Implement core Transformer mathematical operations (LayerNorm, Scaled Dot-Product Attention, Residuals).
-- [x] Assemble modular `build_transformer` factory method with configurable dimensions ($d_{\text{model}}$, $N$, $h$).
-- [ ] Implement audio frontend (Log-Mel Filterbank spectrogram extraction / 1D Conv subsampling layers).
-- [ ] Integrate acoustic dataset loaders (e.g., Common Voice, accented speech corpora).
-- [ ] Implement Beam Search and Greedy decoding inference algorithms.
-- [ ] Benchmark Word Error Rate (WER) across accent cohorts.
-
----
-
 ## Installation & Environment Setup
 
 ```bash
